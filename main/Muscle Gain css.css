@@ -1,0 +1,61 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;400;500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    align-items: center;
+}
+nav a{
+    background-color: #2E4F4F;
+    width: 1536px;
+    height: 10vh;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+
+}
+body{
+ 
+    min-height: 100vh;
+    width: 1536px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./images/john-arano-h4i9G-de7Po-unsplash.jpg');
+    
+}
+.content{
+    align-items: center;
+    justify-content: center;
+    font-size:x-large;
+    color: white;
+}
+#mainMenu {
+	margin:10px;
+	width:120px;
+	font-family: "Trebuchet MS";
+}
+
+#mainMenu li {
+	display:block;
+	border:1px solid #000;
+	border-top:0px;
+}
+
+#mainMenu li:first-child {
+	border-top:1px solid #000;
+}
+
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	color:#009;
+}
+
+#mainMenu a:hover {
+	background-color:#009;
+	color:#fff;
+}
